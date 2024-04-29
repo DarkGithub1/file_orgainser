@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Specify the directory containing the files to be organized
-const directory = 'E:/All_files';
+const directory = 'D:/';
 
 // Read all files in the directory
 fs.readdir(directory, (err, files) => {
